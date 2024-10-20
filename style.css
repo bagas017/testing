@@ -1,0 +1,206 @@
+.header-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.874) 0%, rgba(31, 31, 31, 0.551) 87%);
+}
+
+.logo-section{
+    margin: 10px 30px 10px 30px;
+    padding: 0;
+}
+
+body{
+    color:white; 
+    background: rgb(0,255,226);
+    background: radial-gradient(circle, rgba(0,255,226,1) 0%, rgba(21,255,225,1) 5%, rgba(0,226,200,1) 13%, rgba(0,150,133,1) 25%, rgb(0, 0, 0) 60%);
+    background-repeat: no-repeat;
+}
+
+.main-content{
+    color: white;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    /* border: 1px red solid;; */
+}
+
+.main-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.main-img img {
+    display: block;
+    width: 100%; 
+    height: auto;
+    margin-bottom: 20%;
+}
+
+.div-blok {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 65%;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 32%, rgba(0,0,0,0.85) 55%, rgba(0,0,0,0.46) 80%, rgba(0,0,0,0) 100%);
+}
+
+.caption-container {
+    padding: 0px 20px 20px 20px;
+    background-color: transparent;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1;
+    bottom: 20%;
+    height: 30%;
+    width: 80%;
+}
+
+.caption-container h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6vw;
+    line-height: 0.9;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+.caption-container p {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25vw;
+    margin: 0px 50px 20px 50px;
+    padding: 0;
+}
+
+.nation-p {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 0.1vw;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+
+.glass-sidebar{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.left-sidebar{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 42%, rgba(0, 0, 0, 0.673) 100%);
+    padding: 20px;;
+
+}
+.nav-button{
+    padding: 0px 0px 0px 0px;
+    margin: 20px;
+}
+
+.nav-button ul{
+    padding: 0;
+}
+
+.nav-button ul li{
+    list-style: none;
+    margin: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    border-left: 0;
+    border-right: 0;
+}
+
+.nav-button ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 3;
+}
+
+.nav-button ul li:hover{
+    background-color: rgba(0, 255, 229, 0.751);
+    font-weight: 500;}
+
+.join-section{
+    text-align: center;
+}
+
+.card-link{
+    background-color: turquoise;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fjalala One';
+    font-weight: 800;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-social li {
+    margin: 0 10px;
+}
+
+.footer-social li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.footer-social li a:hover {
+    color: #ccc;
+}
+
+.footer{
+    padding: 20px;;
+    color: #777;
+    background-color: #000000;
+    border-top: #00ffc8 1px solid;
+}
+.footer-copyright {
+    font-size: 1.5vw;
+    color: #777;
+    background-color: #000000;
+    text-align: center;
+}
+
+.achievement-container{
+    height: auto;
+    overflow: scroll;
+    scrollbar-width: none;
+    max-height: 400px;
+    height: auto;
+}
+
+
